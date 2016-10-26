@@ -1,0 +1,119 @@
+@font-face {
+    font-family: HarlowSolidItalic;
+    src: url(../fonts/HarlowSolidItalic.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    font: 24px Geneva, Arial, Helvetica, sans-serif;
+    background-color: #b6d2b9;
+    list-style-type: none;
+    position: relative;
+    width: 140px;
+    height: 1038px;
+}
+
+li {
+    padding: 23px 0 0 27px;
+}
+
+li a {
+    text-decoration: none;
+    color: #ece7c9;
+}
+
+li:nth-child(3) {
+    padding-left: 5px;
+}
+
+li a:hover {
+    font-weight: 900;
+}
+
+nav {
+    position: absolute;
+    left: 15px;
+}
+
+article {
+    background-color: #a9c8ca;
+    width: 850px;
+    height: 850px;
+    left: 188px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+div.dots div {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    margin: 12px;
+    border-radius: 50%;
+}
+
+.test {
+    display: inline-block;
+}
+
+.wrapper-for-gallery {
+    margin-top: 50px;
+    margin-left: 60px;
+    box-sizing: border-box;
+    background-color: #b6d2b9;
+    border: 8px solid #8db1af;
+    border-radius: 60px;
+    width: 740px;
+}
+
+.gallery-top img {
+    height: 395px;
+    width: 660px;
+}
+
+.gallery-bottom img {
+    display: inline-block;
+    height: 190px;
+    width: 190px;
+    margin: 25px 15px 25px 0;
+}
+
+.gallery-top {
+    margin-top: 22px;
+    margin-left: 15px;
+}
+
+.gallery-bottom {
+    margin-left: 15px;
+}
+
+img {
+    border-radius: 60px;
+    border: 14px solid #ece8cd;
+}
+
+.dots {
+    left: 150px;
+    position: absolute;
+}
+
+.signature {
+    width: 1038px;
+    height: 128px;
+    background-color: #b6d2b9;
+    top: 38px;
+    position: relative;
+}
+
+h1 {
+    font: 64px HarlowSolidItalic, sans-serif;
+    position: relative;
+    top: 23%;
+    text-align: right;
+    margin-right: 65px;
+}
