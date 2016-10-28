@@ -3,6 +3,10 @@
     src: url(../fonts/HarlowSolidItalic.ttf);
 }
 
+body {
+    font-size: 100%;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -42,7 +46,6 @@ nav {
 article {
     background-color: #a9c8ca;
     width: 850px;
-    height: 850px;
     left: 188px;
     position: relative;
     box-sizing: border-box;
@@ -62,34 +65,27 @@ div.dots div {
 }
 
 .wrapper-for-gallery {
-    margin-top: 50px;
-    margin-left: 60px;
+    margin: 50px;
     box-sizing: border-box;
     background-color: #b6d2b9;
     border: 8px solid #8db1af;
     border-radius: 60px;
-    width: 740px;
+    padding-right: 15px;
+
 }
 
-.gallery-top img {
+img:first-child {
     height: 395px;
     width: 660px;
-}
-
-.gallery-bottom img {
-    display: inline-block;
-    height: 190px;
-    width: 190px;
-    margin: 25px 15px 25px 0;
-}
-
-.gallery-top {
     margin-top: 22px;
     margin-left: 15px;
 }
 
-.gallery-bottom {
-    margin-left: 15px;
+img {
+    display: inline-block;
+    height: 190px;
+    width: 190px;
+    margin: 0 0 25px 15px;
 }
 
 img {
@@ -111,9 +107,10 @@ img {
 }
 
 h1 {
-    font: 64px HarlowSolidItalic, sans-serif;
+    font: 4em HarlowSolidItalic, sans-serif;
     position: relative;
     top: 23%;
     text-align: right;
     margin-right: 65px;
 }
+
